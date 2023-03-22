@@ -70,8 +70,6 @@ select {
 .header{
     padding-top: 30px;
     height: 60px;
-    /* position: fixed; */
-    width: 100%;
 }
 
 .header-wrapper{
@@ -127,6 +125,7 @@ select {
     width: 114px;
     height: 3px;
     background: #F1CDB3;
+    
 }
 
 .nav-menu{
@@ -142,7 +141,7 @@ select {
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    color: #FFFFFF;
+    color: #CDCDCD;
     margin-left: 35px;
 }
 
@@ -150,7 +149,7 @@ select {
     opacity: 1.2;
     transition: 0.3s;
     cursor: pointer;
-    color: #F1CDB3;
+    color: #FAFAFA;
 }
 
 .bg{
@@ -200,8 +199,6 @@ select {
 .not-only-button{
     width: 207px;
     height: 52px;
-    left: calc(50% - 207px/2 - 126.5px);
-    bottom: 0px;
     background: #F1CDB3;
     border-radius: 100px;
     border-style: none;
@@ -229,5 +226,53 @@ select {
     flex-direction: column;
     align-items: flex-end;
     margin-top: 90px;
+}
+
+.about{
+    height: 588px;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img-container{
+    margin-top: 80px;
+    margin-right: 120px;
+}
+
+.about-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
+}
+
+.about-title{
+    max-width: 370px;
+    margin-bottom: 25px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.about-text{
+    max-width: 430px;
+    padding-bottom: 25px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+
+.about-text:last-child{
+    padding-bottom: 0px;
 }
 
