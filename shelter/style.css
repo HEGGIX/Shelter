@@ -281,6 +281,11 @@ select {
     background-color: #F6F6F6;
 }
 
+.pets-title-container{
+    display: flex;
+    justify-content: center;
+}
+
 .pets-title{
     max-width: 400px;
     text-align: center;
@@ -300,6 +305,31 @@ select {
     justify-content: center;
     height: 435px;
     margin-top: 60px;
+}
+
+.circle{
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    margin-top: 192px;
+}
+
+.circle:hover{
+    cursor: pointer;
+    transition: 0.6s;
+    background: #FDDCC4;
+    border-color: #FDDCC4;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.left-arrow{
+    margin-right: 90px;
 }
 
 .card{
@@ -348,6 +378,11 @@ select {
     border-color:#FDDCC4;
     cursor: pointer;
     transition: 0.6s;
+}
+
+.know-btn-container{
+    display: flex;
+    justify-content: center;
 }
 
 .to-know-btn{
