@@ -329,7 +329,11 @@ select {
 }
 
 .left-arrow{
-    margin-right: 90px;
+    margin-right: 53px;
+}
+
+.right-arrow{
+    margin-left: 53px;
 }
 
 .card{
@@ -340,7 +344,7 @@ select {
     margin-right: 90px;
 }
 
-.card:last-child{
+.woody-container{
     margin-right: 0;
 }
 
@@ -407,4 +411,56 @@ select {
     cursor: pointer;
     transition: 0.6s;
     background: #FDDCC4;
+}
+
+.help{
+    height: 611px;
+    background: #FFFFFF;
+}
+
+.help-title-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.help-title{
+    max-width: 308px;
+    height: 90px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.help-img-container{
+    height: 281px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
+    margin-top: 60px;
+    /* margin-left: 87px; */
+}
+
+.picture{
+    margin-right: 120px;
+}
+
+.help-img-container p{
+    margin-top: 30px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
 }
