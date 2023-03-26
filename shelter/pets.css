@@ -268,6 +268,16 @@ select {
     background: #F1CDB3;
 }
 
+.number span{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
 span{
     display: flex;
     justify-content: center;
@@ -282,10 +292,18 @@ span{
     margin-right: 20px;
 }
 
+.gray span{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #CDCDCD;
+}
+
 .gray:hover{
-    background: #CDCDCD;
     cursor: pointer;
-    transition: 0.6s;
 }
 
 .circle{
@@ -294,6 +312,16 @@ span{
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     margin-right: 20px;
+}
+
+.circle span{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #292929;
 }
 
 .circle:hover{
@@ -351,6 +379,16 @@ span{
 }
 
 .phone{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.email{
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;

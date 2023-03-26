@@ -462,7 +462,6 @@ select {
 }
 
 .help-img-container{
-    height: 281px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -621,6 +620,16 @@ select {
 }
 
 .phone{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.email{
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
