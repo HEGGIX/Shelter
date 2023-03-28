@@ -692,3 +692,199 @@ select {
     margin-left: 160px;
     margin-top: 48px;
 }
+
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x:hidden;
+    }
+
+    .wrapper{
+        max-width: 708px;
+        margin: 0 auto;
+    }
+
+    .header{
+        height: 60px;
+    }
+
+    .bg{
+        background: url(images/bg\ 768.png);
+        background-size: cover;
+    }
+
+    .not-only{
+        height: 1105px;
+    }
+
+    .not-only-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .not-only-container{
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+
+    .not-only-title{
+        width: 310px;
+        height: 114px;
+        padding-top: 0px;
+    }
+
+    .not-only-text{
+        margin-top: 42px;
+    }
+
+    .not-only-button{
+        margin-left: 126px;
+    }
+
+    .only-img-container{
+        max-width: 569px;
+        max-height: 593px;
+        margin-top: 0px
+    }
+
+    .about{
+        height: 1048px;
+    }
+
+    .about-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 437px;
+    }
+
+    .about-text-container{
+        margin-bottom: 80px;
+        order: 1;
+    }
+
+    .about-img-container{
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .card{
+        margin-right: 40px;
+    }
+
+    .katrine-container{
+        margin-left: 12px;
+    }
+
+    .woody-container{
+        display: none;
+    }
+
+    .jennifer-container{
+        margin-right: 12px;
+    }
+
+    .circle{
+        max-width: 52px;
+        max-height: 52px;
+    }
+
+    .left-arrow{
+        margin-right: 0px;
+    }
+
+    .right-arrow{
+        margin-left: 0px;
+    }
+
+    .help{
+        height: 779px;
+    }
+
+    .help-wrapper{
+        max-width: 630px;
+        max-height: 599px;
+    }
+
+    .help-img-container{
+        max-width: 630px;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .picture{
+        margin-right: 60px;
+    }
+
+    .picture:last-child{
+        margin-right: 0px;
+    }
+
+    .second{
+        margin-top: 55px;
+    }
+
+    .donation{
+        height: 783px;
+    }
+
+    .donation-wrapper{
+        flex-direction: column;
+    }
+
+    .donation-text-container{
+        order: 1;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .donation-img{
+        margin: auto;
+        margin-top: 61px;
+        order: 2;
+    }
+
+    .footer{
+        height: 639px;
+        background: url(images/footer-background\ 768.png)
+    }
+
+    .footer-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .for-questions-container{
+        margin-top: 30px;
+        width: 278px;
+        height: 234px;
+        order: 1;
+    }
+
+    .for-visit-container{
+        margin-top: 30px;
+        margin-left: 60px;
+        order: 2;
+    }
+
+    .visit-title{
+        max-width: 270px;
+        max-height: 90px;
+    }
+
+    .questions-title{
+        width: 280px;
+        max-height: 90px;
+    }
+
+    .footer-img-container{
+        margin: auto;
+        margin-top: 51px;
+        order: 3;
+        width: 300px;
+        height: 310px;
+    }
+
+};
