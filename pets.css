@@ -163,6 +163,34 @@ select {
     color: #dab69d;
 }
 
+.header-burger{
+    width: 30px;
+    height: 22px;
+    position: relative;
+    display: none;
+}
+
+.burger-line{
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    left: 0;
+    position: absolute;
+}
+
+.line-first{
+    top: 0;
+}
+
+.line-second{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line-third{
+    bottom: 0;
+}
+
 .our-pets{
     height: 1342px;
     background: #F6F6F6;
@@ -191,7 +219,6 @@ select {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-content: space-around;
     height: 930px;
     max-width: 1200px;
     margin-top: 60px;
@@ -434,4 +461,263 @@ span{
 .footer-img-container{
     margin-left: 160px;
     margin-top: 48px;
+}
+
+@media screen and (max-width: 768px){
+    /* .wrapper{
+        max-width: 708px;
+        margin: 0 auto;
+    }
+
+    .our-pets{
+        height: 1733px;
+    }
+
+    .pets-card-container{
+        margin-top: 30px;
+        max-width: 508px;
+        max-height: 1365px;
+    }
+
+    .card{
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+
+    .card:last-child{
+        margin-right: 0px;
+    }
+
+    .pages-container{
+        margin-top: 40px;
+    } */
+
+    .wrapper{
+        max-width: 708px;
+        margin: 0 auto;
+    }
+
+    .our-pets{
+        height: 1733px;
+    }
+
+    .our-pets-wrapper{
+        height: 1603px;
+    }
+
+    .pets-card-container{
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+    .card{
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+
+    .jennifer-container{
+        margin-right: 0px;
+    }
+
+    .sophia-container{
+        margin-right: 0px;
+    }
+
+    .charly-container{
+        margin-right: 0px;
+    }
+
+    .scarlet-container{
+        display: none;
+    }
+
+    .freddie-container{
+        display: none;
+    }
+
+    .pages-container{
+        margin-top: 520px;
+    } 
+
+    /* .card:last-child{
+        margin-right: 0px;
+    } */
+
+    .footer{
+        height: 639px;
+        background: url(images/footer-background\ 768.png)
+    }
+
+    .footer-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .for-questions-container{
+        margin-top: 30px;
+        margin-left: 34px;
+        width: 278px;
+        height: 234px;
+        order: 1;
+    }
+
+    .for-visit-container{
+        margin-top: 30px;
+        margin-left: 60px;
+        order: 2;
+    }
+
+    .visit-title{
+        max-width: 270px;
+        max-height: 90px;
+    }
+
+    .questions-title{
+        width: 280px;
+        max-height: 90px;
+    }
+
+    .footer-img-container{
+        margin: auto;
+        margin-top: 51px;
+        order: 3;
+        width: 300px;
+        height: 310px;
+    }
+     
+}
+
+@media screen and (max-width: 320px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .wrapper{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .nav-conatiner{
+        display: none;
+    }
+
+    .header-burger{
+        width: 30px;
+        height: 22px;
+        position: relative;
+        display: block;
+    }
+    
+    .burger-line{
+        display: block;
+        width: 100%;
+        border: 1px solid black;
+        left: 0;
+        position: absolute;
+    }
+    
+    .line-first{
+        top: 0;
+    }
+    
+    .line-second{
+        top: 50%;
+        transform: translateY(-50%);
+        margin-bottom: 10px;
+    }
+    
+    .line-third{
+        bottom: 0;
+        margin-top: 10px;
+    }
+
+    .our-pets{
+        height: 1649px;
+    }
+
+    .pets-title-container{
+        width: 300px;
+        height: 64px;
+    }
+
+    .pets-title{
+        padding: 0px;
+        margin-top: 42px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+
+    .pets-card-container{
+        margin-top: 42px;
+    }
+
+    .card{
+        margin-right: 0px;
+    }
+
+    .katrine-container{
+        margin-top: 42px;
+    }
+
+    .sophia-container{
+        display: none;
+    }
+
+    .timmy-container{
+        display: none;
+    }
+
+    .charly-container{
+        display: none;
+    }
+
+    .pages-container div{
+        margin-right: 10px;
+    }
+
+    .footer{
+        height: 809px;
+        background: url(images/footer-gradient-background\ 320.png);
+    }
+
+    .comm{
+        margin: auto;
+    }
+
+    .questions-title{
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin-top: 30px;
+    }
+
+    .visit-title{
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .footer-img-container{
+        width: 260px;
+        height: 269px;
+        margin-top: 44px;
+    }
 }
