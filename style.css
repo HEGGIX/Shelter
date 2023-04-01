@@ -733,6 +733,191 @@ select {
     margin-top: 48px;
 }
 
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+    body{
+        overflow-x:hidden;
+    }
+
+    .wrapper{
+        max-width: 94.3%;
+    }
+
+    .bg{
+        background: url(images/bg\ 768.png);
+        background-size: cover;
+    }
+
+    .not-only{
+        height: 0.34%;
+    }
+
+    .not-only-container{
+        width: 30.94vw;
+        margin-top: 8.14%;
+        margin-bottom: 9.05%;
+    }
+
+    .not-only-title{
+        max-width: 80.05%;
+        max-height: 20.3%;
+        padding-top: 0%;
+        margin-top: 10%;
+    }
+
+    .not-only-button{
+        margin-left: 16.4%;
+    }
+
+    .only-img-container{
+        width: 60.53vw;
+        height: 50%;
+    }
+
+    .about{
+        height: 5.34%;
+    }
+
+    .about-text-container{
+        max-width: 40%;
+        margin-bottom: 80px;
+        
+    }
+
+    .about-img-container{
+        margin-top: 12%;
+        max-width: 35%;
+    }
+
+    .card{
+        margin-right: 40px;
+        max-width: 30%;
+    }
+
+    .pets-btn{
+        margin-left: 12%;
+    }
+    
+    .know-btn-container{
+        max-width: 50%;
+        max-height: 20%;
+        margin: auto;
+    }
+
+    .katrine-container{
+        margin-left: 12px;
+    }
+
+    .woody-container{
+        display: none;
+    }
+
+    .jennifer-container{
+        margin-right: 12px;
+    }
+
+    .circle{
+        max-width: 52px;
+        max-height: 52px;
+    }
+
+    .left-arrow{
+        margin-right: 0px;
+    }
+
+    .right-arrow{
+        margin-left: 0px;
+    }
+
+    .help{
+        height: 779px;
+    }
+
+    .help-wrapper{
+        max-width: 85%;
+        max-height: 599px;
+    }
+
+    .help-img-container{
+        max-width: 85%;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .help-title-container{
+        max-height: 30%;
+    }
+
+
+    .picture{
+        margin-right: 60px;
+    }
+
+    .picture:last-child{
+        margin-right: 0px;
+    }
+
+    .donation{
+        height: 38%;
+    }
+
+    .donation-text-container{
+        order: 2;
+        margin: auto;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        max-width: 46%;
+    }
+
+    .donation-img{
+        margin: auto;
+        margin-top: 6%;
+        order: 1;
+        margin-bottom: 5%;
+        max-width: 50%;
+    }
+
+    .footer{
+        height: 38%;
+        background: url(images/footer-background\ 768.png);
+        background-size: cover;
+    }
+
+    .footer-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .for-questions-container{
+        margin-left: 4%;
+        max-width: 40%;
+        order: 1;
+    }
+
+    .for-visit-container{
+        margin-left: 4.2%;
+        order: 2;
+        max-width: 40%;
+    }
+
+    .visit-title{
+        max-width: 270px;
+        max-height: 90px;
+    }
+
+    .questions-title{
+        width: 280px;
+        max-height: 90px;
+    }
+
+    .footer-img-container{
+        margin: auto;
+        margin-top: 4%;
+        order: 3;
+        width: 30%;
+        height: 40%;
+    }
+}
 
 @media screen and (max-width: 768px){
     body{
@@ -1337,3 +1522,499 @@ select {
         line-height: 160%;
     }
 }
+
+/* @media screen and (max-width: 768px){
+    body{
+        overflow-x:hidden;
+    }
+
+    .wrapper{
+        max-width: 708px;
+        margin: 0 auto;
+    }
+
+    .header{
+        height: 60px;
+    }
+
+    .bg{
+        background: url(images/bg\ 768.png);
+        background-size: cover;
+    }
+
+    .not-only{
+        height: 1105px;
+    }
+
+    .not-only-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .not-only-container{
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+
+    .not-only-title{
+        width: 310px;
+        height: 114px;
+        padding-top: 0px;
+    }
+
+    .not-only-text{
+        margin-top: 42px;
+    }
+
+    .not-only-button{
+        margin-left: 126px;
+    }
+
+    .only-img-container{
+        max-width: 569px;
+        max-height: 593px;
+        margin-top: 0px
+    }
+
+    .about{
+        height: 1048px;
+    }
+
+    .about-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 437px;
+    }
+
+    .about-text-container{
+        margin-bottom: 80px;
+        order: 1;
+    }
+
+    .about-img-container{
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .card{
+        margin-right: 40px;
+    }
+
+    .katrine-container{
+        margin-left: 12px;
+    }
+
+    .woody-container{
+        display: none;
+    }
+
+    .jennifer-container{
+        margin-right: 12px;
+    }
+
+    .circle{
+        max-width: 52px;
+        max-height: 52px;
+    }
+
+    .left-arrow{
+        margin-right: 0px;
+    }
+
+    .right-arrow{
+        margin-left: 0px;
+    }
+
+    .help{
+        height: 779px;
+    }
+
+    .help-wrapper{
+        max-width: 630px;
+        max-height: 599px;
+    }
+
+    .help-img-container{
+        max-width: 630px;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .picture{
+        margin-right: 60px;
+    }
+
+    .picture:last-child{
+        margin-right: 0px;
+    }
+
+    .second{
+        margin-top: 55px;
+    }
+
+    .donation{
+        height: 783px;
+    }
+
+    .donation-wrapper{
+        flex-direction: column;
+    }
+
+    .donation-text-container{
+        order: 1;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .donation-img{
+        margin: auto;
+        margin-top: 61px;
+        order: 2;
+    }
+
+    .footer{
+        height: 639px;
+        background: url(images/footer-background\ 768.png)
+    }
+
+    .footer-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .for-questions-container{
+        margin-top: 30px;
+        margin-left: 34px;
+        width: 278px;
+        height: 234px;
+        order: 1;
+    }
+
+    .for-visit-container{
+        margin-top: 30px;
+        margin-left: 60px;
+        order: 2;
+    }
+
+    .visit-title{
+        max-width: 270px;
+        max-height: 90px;
+    }
+
+    .questions-title{
+        width: 280px;
+        max-height: 90px;
+    }
+
+    .footer-img-container{
+        margin: auto;
+        margin-top: 51px;
+        order: 3;
+        width: 300px;
+        height: 310px;
+    }
+
+} */
+
+/* @media screen and (max-width: 320px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .wrapper{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .bg{
+        background: url(images/start-screen-background\ 320.png);
+    }
+
+    .nav-conatiner{
+        display: none;
+    }
+
+    .not-only{
+        height: 763px;
+    }
+
+    .not-only-container{
+        max-width: 300px;
+    }
+
+    .not-only-title{
+        width: 200px;
+        height: 64px;
+        text-align: center;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        margin: auto;
+    }
+
+    .not-only-text{
+        text-align: center;
+    }
+
+    .not-only-button{
+        margin-left: 46px;
+    }
+
+    .only-img-container{
+        max-width: 260px;
+        max-height: 271.77px;
+        margin-left: 40px;
+        margin-top: 7px;
+    }
+
+    .about{
+        height: 974px;
+    }
+
+    .about-text-container{
+        margin-top: 42px;
+        margin-bottom: 42px;
+    }
+
+    .about-title{
+        width: 293px;
+        height: 64px;
+        margin-top: 0px;
+        text-align: center;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+
+    .about-text{
+        width: 270px;
+        margin: auto;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: justify;
+        color: #4C4C4C;
+    }
+
+    .about-img-container{
+        max-width: 260px;
+        max-height: 353.6px;
+    }
+
+    .pets{
+        height: 791px;
+    }
+
+    .pets-title-container{
+        width: 300px;
+        height: 64px;
+        margin-top: 0px;
+    }
+
+    .pets-title{
+        padding-top: 0px;
+        margin-top: 42px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+
+    .katrine-container{
+        margin: auto;
+    }
+
+    .circle{
+        margin-top: 20px;
+    }
+
+    .left-arrow{
+        order: 2;
+        margin-right: 80px;
+    }
+
+    .right-arrow{
+        order: 3;
+    }
+
+    .know-btn-container{
+        margin-top: 47px;
+    }
+
+    .jennifer-container{
+        display: none;
+    }
+
+    .help{
+        height: 745px;
+    }
+
+    .help-title-container{
+        width: 220px;
+        height: 64px;
+        margin: auto;
+    }
+
+    .help-title{
+        font-family: 'Georgia';
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        margin-top: 42px;
+    }
+
+    .help-img-container{
+        max-height: 555px;
+        max-width: 290px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: stretch;
+        row-gap: 50px;
+        margin-top: 82px;
+    }
+
+    .picture{
+        width: 130px;
+        height: 70px;
+        margin-right: 30px;
+    }
+
+    .picture:last-child{
+        margin-bottom: 0px;
+    }
+
+    .picture p{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110%;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin-top: 20px;
+    }
+
+    .second{
+        margin-top: 0;
+    }
+
+    .donation{
+        height: 542.2px;
+    }
+
+    .donation-text-container{
+        margin-top: 42px;
+    }
+
+    .donation-title{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+
+    .donation-subtitle{
+        width: 308px;
+        height: 24px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        align-items: center;
+    }
+
+    .credit-card{
+        width: 281px;
+        height: 43px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .card-number{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 110%;
+        align-items: center;
+        letter-spacing: 0.06em;
+    }
+
+    .remark{
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .donation-img{
+        width: 265px;
+        height: 135.2px;
+        margin-top: 42px;
+    }
+
+    .footer{
+        height: 809px;
+        background: url(images/footer-gradient-background\ 320.png);
+    }
+
+    .comm{
+        margin: auto;
+    }
+
+    .questions-title{
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin-top: 30px;
+    }
+
+    .visit-title{
+        height: 64px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .footer-img-container{
+        width: 260px;
+        height: 269px;
+        margin-top: 44px;
+    }
+} */

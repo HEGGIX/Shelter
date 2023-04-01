@@ -105,6 +105,12 @@ select {
     margin-top: 10px;
 }
 
+.nav-conatiner{
+    height: 27px;
+    left: 757px;
+    top: 16px;
+}
+
 .nav-title{
     padding: 0px;
     font-family: 'Arial';
@@ -132,7 +138,7 @@ select {
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    color: #545454;;
+    color: #545454;
 }
 
 .nav-menu a:hover{
@@ -667,6 +673,91 @@ span{
         width: 260px;
         height: 269px;
         margin-top: 44px;
+    }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+    body{
+        overflow-x:hidden;
+    }
+
+    .pets-card-container{
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+    .card{
+        margin-top: 10%;
+        margin-right: 40px;
+        max-width: 18%;
+        max-height: 38%;
+    }
+
+    .second{
+        margin-top: 0;
+    }
+
+    .pets-btn{
+        max-width: 80%;
+        max-height: 20%;
+        margin-left: 7%;
+    }
+
+    .jennifer-container{
+        margin-right: 0px;
+    }
+
+    .woody-container{
+        margin-left: 4%;
+    }
+
+    .timmy-container{
+        margin-left: 4%;
+    }
+
+    .pages-container{
+        margin-top: 7%;
+    } 
+
+    .footer{
+        height: 38%;
+        background: url(images/footer-background\ 768.png);
+        background-size: cover;
+    }
+
+    .footer-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .for-questions-container{
+        margin-left: 4%;
+        max-width: 40%;
+        order: 1;
+    }
+
+    .for-visit-container{
+        margin-left: 4.2%;
+        order: 2;
+        max-width: 40%;
+    }
+
+    .visit-title{
+        max-width: 270px;
+        max-height: 90px;
+    }
+
+    .questions-title{
+        width: 280px;
+        max-height: 90px;
+    }
+
+    .footer-img-container{
+        margin: auto;
+        margin-top: 4%;
+        order: 3;
+        width: 30%;
+        height: 40%;
     }
 }
 
