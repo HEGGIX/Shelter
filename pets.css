@@ -761,6 +761,117 @@ span{
     }
 }
 
+@media screen and (max-width: 615px) {
+    .sophia-container{
+        display: none;
+    }
+
+    .charly-container{
+        display: none;
+    }
+
+    .timmy-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 766px) and (min-width: 321px){
+    body{
+        overflow-x:hidden;
+    }
+
+    .wrapper{
+        max-width: 94.3%;
+    }
+
+    .pets-title{
+        max-width: 70%;
+    }
+
+    .katrine-container{
+        margin-right: 0%;
+    }
+
+    .woody-container{
+        margin-right: 0%;
+    }
+
+    footer{
+        height: 90%;
+        background: url(images/footer-background.png);
+        background-size: cover;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .for-questions-container{
+        margin-left: 4%;
+        max-width: 50%;
+        order: 1;
+    }
+
+    .for-visit-container{
+        margin-left: 4.2%;
+        order: 2;
+        max-width: 50%;
+        margin-top: 5%;
+    }
+
+    .visit-title{
+        font-size: 1.7rem;
+        max-width: 99%;
+        max-height: 20%;
+    }
+
+    .questions-title{
+        font-size: 1.7rem;
+        max-width: 99%;
+        max-height: 20%;
+    }
+
+    .email-contanier{
+        margin-top: 50%;
+    }
+
+    .phone-container{
+        margin-top: 15%;
+    }
+   
+    .email{
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .phone{
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .visit-title{
+        margin-top: 8%;
+    }
+
+    .boston-contanier{
+        margin-top: 40%;
+    }
+
+    .maps{
+        font-size: 1rem;
+        max-width: 30%;
+    }
+
+    .footer-img-container{
+        margin: auto;
+        margin-top: 4%;
+        order: 3;
+        width: 30%;
+        height: 40%;
+    }
+}
+
 
 @media screen and (max-width: 767px){
     .body_active{

@@ -1115,6 +1115,263 @@ select {
 
 }
 
+@media screen and (max-width: 766px) and (min-width: 321px){
+    body{
+        overflow-x:hidden;
+    }
+
+    .wrapper{
+        max-width: 94.3%;
+    }
+
+    .bg{
+        background: url(images/bg\ 768.png);
+        background-size: cover;
+    }
+
+    .not-only{
+        height: 0.34%;
+    }
+
+    .not-only-container{
+        max-width: 60%;
+        margin-top: 8.14%;
+        margin-bottom: 9.05%;
+    }
+
+    .not-only-title{
+        max-width: 90.05%;
+        max-height: 20.3%;
+        font-size: 1.9rem;
+        padding-top: 0%;
+        margin-top: 12%;
+    }
+
+    .not-only-button{
+        margin-left: 10.4%;
+        max-width: 99%;
+    }
+
+    .only-img-container{
+        width: 60.53vw;
+        height: 50%;
+    }
+
+    .about{
+        height: 5.34%;
+    }
+
+    .about-text-container{
+        max-width: 95%;
+        margin-top: 10%;
+        margin: auto;
+    }
+
+    .about-title{
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .about-img-container{
+        margin-top: 12%;
+        margin-bottom: 8%;
+        max-width: 35%;
+    }
+
+    .card{
+        max-width: 50%;
+        margin-left: 10%;
+    }
+
+    .pets-btn{
+        max-width: 80%;
+        max-height: 20%;
+        margin-left: 9%;
+    }
+    
+    .know-btn-container{
+        max-width: 50%;
+        max-height: 20%;
+        margin: auto;
+    }
+
+    .katrine-container{
+       margin: auto;
+    }
+
+    .jennifer-container{
+        display: none;
+    }
+
+    .woody-container{
+        display: none;
+    }
+
+    .jennifer-container{
+        margin-right: 12px;
+    }
+
+    .circle{
+        max-width: 52px;
+        max-height: 52px;
+    }
+
+    .left-arrow{
+        margin-right: 0px;
+    }
+
+    .right-arrow{
+        margin-left: 0px;
+    }
+
+    .help{
+        height: 85%;
+    }
+
+    .help-wrapper{
+        max-width: 95%;
+        max-height: 99%;
+    }
+
+    .help-img-container{
+        max-width: 85%;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 8%;
+    }
+
+    .help-title-container{
+        max-height: 30%;
+    }
+
+    .help-title{
+        margin-top: 10%;
+    }
+
+    .picture{
+        margin-right: 5%;
+    }
+
+    .picture:last-child{
+        margin-right: 0px;
+    }
+
+    .second{
+        margin-top: 0%;
+    }
+
+    .donation{
+        height: 38%;
+    }
+
+    .donation-text-container{
+        order: 1;
+        margin: auto;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        max-width: 80%;
+    }
+
+    .credit-card{
+        max-width: 99%;
+        max-height: 40%;
+    }
+
+    .credit-card img{
+        max-width: 7%;
+    }
+
+    .card-number{
+        max-width: 99%;
+        font-size: 0.9rem;
+        margin-top: 1%;
+        max-height: 50%;
+    }
+
+    .donation-img{
+        margin: auto;
+        margin-top: 6%;
+        order: 2;
+        margin-bottom: 5%;
+        max-width: 50%;
+    }
+
+    .footer{
+        height: 38%;
+        background: url(images/footer-background\ 768.png);
+        background-size: cover;
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .for-questions-container{
+        margin-left: 4%;
+        max-width: 50%;
+        order: 1;
+    }
+
+    .for-visit-container{
+        margin-left: 4.2%;
+        order: 2;
+        max-width: 50%;
+        margin-top: 5%;
+    }
+
+    .visit-title{
+        font-size: 1.7rem;
+        max-width: 99%;
+        max-height: 20%;
+    }
+
+    .questions-title{
+        font-size: 1.7rem;
+        max-width: 99%;
+        max-height: 20%;
+    }
+
+    .email-contanier{
+        margin-top: 50%;
+    }
+
+    .phone-container{
+        margin-top: 15%;
+    }
+   
+    .email{
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .phone{
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    .visit-title{
+        margin-top: 8%;
+    }
+
+    .boston-contanier{
+        margin-top: 40%;
+    }
+
+    .maps{
+        font-size: 1rem;
+        max-width: 30%;
+    }
+
+    .footer-img-container{
+        margin: auto;
+        margin-top: 4%;
+        order: 3;
+        width: 30%;
+        height: 40%;
+    }
+}
+
 
 @media screen and (max-width: 320px){
     body{
@@ -1522,202 +1779,6 @@ select {
         line-height: 160%;
     }
 }
-
-/* @media screen and (max-width: 768px){
-    body{
-        overflow-x:hidden;
-    }
-
-    .wrapper{
-        max-width: 708px;
-        margin: 0 auto;
-    }
-
-    .header{
-        height: 60px;
-    }
-
-    .bg{
-        background: url(images/bg\ 768.png);
-        background-size: cover;
-    }
-
-    .not-only{
-        height: 1105px;
-    }
-
-    .not-only-wrapper{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .not-only-container{
-        margin-top: 90px;
-        margin-bottom: 100px;
-    }
-
-    .not-only-title{
-        width: 310px;
-        height: 114px;
-        padding-top: 0px;
-    }
-
-    .not-only-text{
-        margin-top: 42px;
-    }
-
-    .not-only-button{
-        margin-left: 126px;
-    }
-
-    .only-img-container{
-        max-width: 569px;
-        max-height: 593px;
-        margin-top: 0px
-    }
-
-    .about{
-        height: 1048px;
-    }
-
-    .about-wrapper{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        max-width: 437px;
-    }
-
-    .about-text-container{
-        margin-bottom: 80px;
-        order: 1;
-    }
-
-    .about-img-container{
-        margin: 0 auto;
-        order: 2;
-    }
-
-    .card{
-        margin-right: 40px;
-    }
-
-    .katrine-container{
-        margin-left: 12px;
-    }
-
-    .woody-container{
-        display: none;
-    }
-
-    .jennifer-container{
-        margin-right: 12px;
-    }
-
-    .circle{
-        max-width: 52px;
-        max-height: 52px;
-    }
-
-    .left-arrow{
-        margin-right: 0px;
-    }
-
-    .right-arrow{
-        margin-left: 0px;
-    }
-
-    .help{
-        height: 779px;
-    }
-
-    .help-wrapper{
-        max-width: 630px;
-        max-height: 599px;
-    }
-
-    .help-img-container{
-        max-width: 630px;
-        justify-content: space-between;
-        margin: auto;
-        margin-top: 60px;
-    }
-
-    .picture{
-        margin-right: 60px;
-    }
-
-    .picture:last-child{
-        margin-right: 0px;
-    }
-
-    .second{
-        margin-top: 55px;
-    }
-
-    .donation{
-        height: 783px;
-    }
-
-    .donation-wrapper{
-        flex-direction: column;
-    }
-
-    .donation-text-container{
-        order: 1;
-        margin: auto;
-        margin-top: 80px;
-    }
-
-    .donation-img{
-        margin: auto;
-        margin-top: 61px;
-        order: 2;
-    }
-
-    .footer{
-        height: 639px;
-        background: url(images/footer-background\ 768.png)
-    }
-
-    .footer-wrapper{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .for-questions-container{
-        margin-top: 30px;
-        margin-left: 34px;
-        width: 278px;
-        height: 234px;
-        order: 1;
-    }
-
-    .for-visit-container{
-        margin-top: 30px;
-        margin-left: 60px;
-        order: 2;
-    }
-
-    .visit-title{
-        max-width: 270px;
-        max-height: 90px;
-    }
-
-    .questions-title{
-        width: 280px;
-        max-height: 90px;
-    }
-
-    .footer-img-container{
-        margin: auto;
-        margin-top: 51px;
-        order: 3;
-        width: 300px;
-        height: 310px;
-    }
-
-} */
 
 /* @media screen and (max-width: 320px){
     body{
