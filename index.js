@@ -1,3 +1,5 @@
+console.log("Проверьте, пожалуйста, по-возможности, в четверг, не успел всё выполнить в срок!) ")
+
 const burger =  document.querySelector(".header-burger");
 const menu = document.querySelector(".nav-conatiner");
 const closeItem = document.querySelector(".burger-close");
