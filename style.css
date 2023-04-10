@@ -357,14 +357,139 @@ select {
     color: #545454;
 }
 
-.pets-card-container{
+.pets-slider-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    height: 435px;
-    margin-top: 60px;
+    height: 550px;
+    max-width: 1200px;
+    min-height: 435px;
 }
+
+.pop-up{
+    background-color:  #FAFAFA;
+    margin-top: 188px;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    z-index: 10;
+}
+
+.pop-up-img{
+    width: 500px;
+    height: 500px;
+}
+
+.text-container{
+    width: 351px;
+    height: 362px;
+}
+
+.pets-title-pop-up{
+    width: 145px;
+    height: 45px;
+    left: 1px;
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.pets-type{
+    width: 151px;
+    height: 23px;
+    left: 1px;
+    top: 55px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.pets-text{
+    width: 350px;
+    height: 102px;
+    left: 1px;
+    top: 118px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.pets-nav-container{
+    margin-top: 40px;
+}
+
+.pets-nav li{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.crad, .block, .slider{
+    display: flex;
+}
+
+.slider-wrapper{
+    width: 990px;
+    overflow-x: hidden;
+}
+
+.slider{
+    position: relative;
+    left: -1080px;
+    max-width: 990px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes move-right {
+    from {left: -1080px;}
+    to {left: -2160px;}
+}
+
+.transition-right{
+    animation-name: move-right;
+    animation-duration: 3s;
+}
+
+@keyframes move-left {
+    from {left: -1080px;}
+    to {left: 0px;}
+}
+
+.transition-left{
+    animation-name: move-left;
+    animation-duration: 3s;
+}
+
 
 .circle{
     width: 52px;
@@ -1779,303 +1904,3 @@ select {
         line-height: 160%;
     }
 }
-
-/* @media screen and (max-width: 320px){
-    body{
-        overflow-x: hidden;
-    }
-
-    .wrapper{
-        max-width: 300px;
-        margin: 0 auto;
-    }
-
-    .bg{
-        background: url(images/start-screen-background\ 320.png);
-    }
-
-    .nav-conatiner{
-        display: none;
-    }
-
-    .not-only{
-        height: 763px;
-    }
-
-    .not-only-container{
-        max-width: 300px;
-    }
-
-    .not-only-title{
-        width: 200px;
-        height: 64px;
-        text-align: center;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        letter-spacing: 0.06em;
-        margin: auto;
-    }
-
-    .not-only-text{
-        text-align: center;
-    }
-
-    .not-only-button{
-        margin-left: 46px;
-    }
-
-    .only-img-container{
-        max-width: 260px;
-        max-height: 271.77px;
-        margin-left: 40px;
-        margin-top: 7px;
-    }
-
-    .about{
-        height: 974px;
-    }
-
-    .about-text-container{
-        margin-top: 42px;
-        margin-bottom: 42px;
-    }
-
-    .about-title{
-        width: 293px;
-        height: 64px;
-        margin-top: 0px;
-        text-align: center;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        letter-spacing: 0.06em;
-    }
-
-    .about-text{
-        width: 270px;
-        margin: auto;
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 160%;
-        text-align: justify;
-        color: #4C4C4C;
-    }
-
-    .about-img-container{
-        max-width: 260px;
-        max-height: 353.6px;
-    }
-
-    .pets{
-        height: 791px;
-    }
-
-    .pets-title-container{
-        width: 300px;
-        height: 64px;
-        margin-top: 0px;
-    }
-
-    .pets-title{
-        padding-top: 0px;
-        margin-top: 42px;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        letter-spacing: 0.06em;
-    }
-
-    .katrine-container{
-        margin: auto;
-    }
-
-    .circle{
-        margin-top: 20px;
-    }
-
-    .left-arrow{
-        order: 2;
-        margin-right: 80px;
-    }
-
-    .right-arrow{
-        order: 3;
-    }
-
-    .know-btn-container{
-        margin-top: 47px;
-    }
-
-    .jennifer-container{
-        display: none;
-    }
-
-    .help{
-        height: 745px;
-    }
-
-    .help-title-container{
-        width: 220px;
-        height: 64px;
-        margin: auto;
-    }
-
-    .help-title{
-        font-family: 'Georgia';
-        font-style: normal;
-        text-align: center;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        letter-spacing: 0.06em;
-        margin-top: 42px;
-    }
-
-    .help-img-container{
-        max-height: 555px;
-        max-width: 290px;
-        flex-direction: column;
-        justify-content: space-between;
-        align-content: stretch;
-        row-gap: 50px;
-        margin-top: 82px;
-    }
-
-    .picture{
-        width: 130px;
-        height: 70px;
-        margin-right: 30px;
-    }
-
-    .picture:last-child{
-        margin-bottom: 0px;
-    }
-
-    .picture p{
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 110%;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        margin-top: 20px;
-    }
-
-    .second{
-        margin-top: 0;
-    }
-
-    .donation{
-        height: 542.2px;
-    }
-
-    .donation-text-container{
-        margin-top: 42px;
-    }
-
-    .donation-title{
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-    }
-
-    .donation-subtitle{
-        width: 308px;
-        height: 24px;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 160%;
-        align-items: center;
-    }
-
-    .credit-card{
-        width: 281px;
-        height: 43px;
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    .card-number{
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 110%;
-        align-items: center;
-        letter-spacing: 0.06em;
-    }
-
-    .remark{
-        font-family: 'Arial';
-        font-style: italic;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
-        align-items: center;
-        text-align: justify;
-    }
-
-    .donation-img{
-        width: 265px;
-        height: 135.2px;
-        margin-top: 42px;
-    }
-
-    .footer{
-        height: 809px;
-        background: url(images/footer-gradient-background\ 320.png);
-    }
-
-    .comm{
-        margin: auto;
-    }
-
-    .questions-title{
-        height: 64px;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        text-align: center;
-        letter-spacing: 0.06em;
-        margin-top: 30px;
-    }
-
-    .visit-title{
-        height: 64px;
-        font-family: 'Georgia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 130%;
-        text-align: center;
-        letter-spacing: 0.06em;
-        margin: auto;
-        margin-top: 40px;
-    }
-
-    .footer-img-container{
-        width: 260px;
-        height: 269px;
-        margin-top: 44px;
-    }
-} */
