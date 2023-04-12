@@ -373,18 +373,38 @@ select {
     margin: auto;
     width: 900px;
     height: 500px;
-    display: flex;
     z-index: 10;
+    display: flex;
+    transition: 0.3s all linear;
+}
+
+.pop-up-wrapper{
+    
 }
 
 .pop-up-img{
-    width: 500px;
-    height: 500px;
+    max-width: 400px;
+    max-height: 400px;
+    order: 1;
+}
+
+.pets-arrow{
+    border: 2px solid #F1CDB3;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+}
+
+.pets-arrow img{
+    margin-top: 20px;
+    margin-left: 18px;
 }
 
 .text-container{
+    margin-left: 70px;
     width: 351px;
     height: 362px;
+    order: 2;
 }
 
 .pets-title-pop-up{
