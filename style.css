@@ -418,6 +418,8 @@ select {
 
 .pets-arrow:hover{
     cursor: pointer;
+    background: #FDDCC4;
+    border-color: #FDDCC4;
 }
 
 .pets-arrow img{
