@@ -367,15 +367,36 @@ select {
     min-height: 435px;
 }
 
+.opacity_active{
+    position:fixed;
+    left:0;
+    top:0;
+    height:100vh;
+    width:100vw;
+    background:#000;
+    opacity:0.5;
+    z-index: 0;
+    transition: 0.3s;
+}
+
+.body_active{
+    overflow: hidden;
+}
+
+.pop-up_active{
+    margin-top: 188px;
+}
+
 .pop-up{
     background-color:  #FAFAFA;
     margin-top: 188px;
     margin: auto;
     width: 900px;
     height: 500px;
-    z-index: 10;
+    z-index: 2;
     display: flex;
     transition: 0.3s all linear;
+    position: relative;
 }
 
 .pop-up-wrapper{
@@ -385,7 +406,7 @@ select {
 .pop-up-img{
     max-width: 400px;
     max-height: 400px;
-    order: 1;
+    position: relative;
 }
 
 .pets-arrow{
@@ -393,6 +414,10 @@ select {
     width: 52px;
     height: 52px;
     border-radius: 100px;
+}
+
+.pets-arrow:hover{
+    cursor: pointer;
 }
 
 .pets-arrow img{
@@ -404,7 +429,8 @@ select {
     margin-left: 70px;
     width: 351px;
     height: 362px;
-    order: 2;
+    order: 1;
+    float: right;
 }
 
 .pets-title-pop-up{

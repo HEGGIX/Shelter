@@ -137,8 +137,8 @@ slider.addEventListener("animationend", (animationEvent) =>{
 
     petsArray.forEach(element => {
         element.addEventListener("click",(event) => openPopUp(event));
+        petsArrow.addEventListener("click", (event) => closePopUp(event));
     })
-    petsArrow.addEventListener("click", (event) => closePopUp(event));
     leftBtnCarousel.addEventListener("click", moveLeft);
     rightBtnCarousel.addEventListener("click", moveRight);
 })
@@ -250,12 +250,18 @@ function closePopUp() {
         const popUp = document.querySelector(".pop-up");
         popUp.classList.add("hide");
         const popUpImg = document.createElement("img");
-        popUpImg.classList.add("hide");
+        const sliderWrapper = document.querySelector(".slider-wrapper");
+        sliderWrapper.classList.remove("hide");
+        leftBtnCarousel.classList.remove("hide");
+        rightBtnCarousel.classList.remove("hide");
+        body.classList.remove("body_active");
+        opacityBurger.classList.remove("opacity_active");
     })
 }
 
 petsArray.forEach(element => {
     element.addEventListener("click",(event) => openPopUp(event));
+    slider.classList.add("hide");
 })
 
 function addPopup(dataInfo) {
@@ -285,9 +291,13 @@ function addPopup(dataInfo) {
     opacityBurger.classList.add("opacity_active");
    
     popUp.classList.remove("hide");
+    popUpImg.classList.add("hide");
+    popUp.classList.add("pop-up_active");
 
-    const slider = document.querySelector(".slider");
-    slider.classList.add("hide");
+    const sliderWrapper = document.querySelector(".slider-wrapper");
+    sliderWrapper.classList.add("hide");
 
+    leftBtnCarousel.classList.add("hide");
+    rightBtnCarousel.classList.add("hide");
 }
 
